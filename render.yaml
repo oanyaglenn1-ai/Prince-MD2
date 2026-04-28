@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: prince-md-bot
+    runtime: node
+    plan: starter
+    region: oregon
+    branch: main
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /status
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: prince-md-data
+      mountPath: /opt/render/project/src/sessions
+      sizeGB: 1
