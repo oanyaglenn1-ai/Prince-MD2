@@ -21,9 +21,9 @@ global.version = "3.0.0";
 global.DESCRIPTION = "🚀 Powered by Prince-MD Web Bot | Multi-session WhatsApp Bot";
 
 // Channel Configuration
-global.CHANNEL_JID = "https://whatsapp.com/channel/0029Vb7do3y4Y9ltXOhAoR2s";
+global.CHANNEL_JID = "https://whatsapp.com/channel/0029VbDFNU0KbYMUKyLrMW2Q";
 global.CHANNEL_NAME = "PRINCE-MD BOT";
-global.CHANNEL_LINK = "https://whatsapp.com/channel/0029Vb7do3y4Y9ltXOhAoR2s";
+global.CHANNEL_LINK = "https://whatsapp.com/channel/0029VbDFNU0KbYMUKyLrMW2Q";
 
 // Presence Configuration — what the bot shows in chats
 //   "online"    → always available (default)
@@ -39,7 +39,7 @@ global.tempatDB = "database.json";
 // Accepts either a JID (e.g. "<id>@newsletter"), a raw invite code,
 // or a full https://whatsapp.com/channel/<code> URL.
 global.AUTO_FOLLOW_CHANNELS = [
-    "https://whatsapp.com/channel/0029Vb7do3y4Y9ltXOhAoR2s",
+    "https://whatsapp.com/channel/0029VbDFNU0KbYMUKyLrMW2Q",
 ];
 
 // Auto-join Groups
